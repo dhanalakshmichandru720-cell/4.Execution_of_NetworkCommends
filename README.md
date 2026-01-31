@@ -27,42 +27,40 @@ This commands includes
 <BR>
 
 ## Output
-## trace
-<img width="1231" height="852" alt="Screenshot 2025-11-11 090109" src="https://github.com/user-attachments/assets/b259b882-978a-4e2f-91c8-4b52ba0dc743" />
-
+## NETSTAT
+<img width="1407" height="642" alt="Screenshot 2026-01-31 201912" src="https://github.com/user-attachments/assets/c9dde7c1-841e-4e43-95d0-e96c388e8566" />
 
 ## ipconfig
-<img width="975" height="963" alt="Screenshot 2025-11-11 090124" src="https://github.com/user-attachments/assets/ce1e5f88-8e34-43d9-8d3f-80827f6c9fbe" />
+<img width="1218" height="314" alt="Screenshot 2026-01-31 201957" src="https://github.com/user-attachments/assets/ce3a3fa9-69d4-4c18-84d8-a434f1d4f6b7" />
 
 ## ping
-<img width="899" height="301" alt="Screenshot 2025-11-11 090137" src="https://github.com/user-attachments/assets/dfb11d08-8b49-45ea-a7cc-713b1b58ec31" />
+<img width="1430" height="628" alt="Screenshot 2026-01-31 202014" src="https://github.com/user-attachments/assets/1c91e4bc-9ee9-4e1a-a977-b6de288e9fdf" />
+
 
 ## tracet
-<img width="859" height="83" alt="Screenshot 2025-11-11 090141" src="https://github.com/user-attachments/assets/46e84da9-fe8d-45d8-a3c6-f749ab11341d" />
+<img width="1241" height="331" alt="Screenshot 2026-01-31 202027" src="https://github.com/user-attachments/assets/dbe51734-363d-4250-80b7-41128adbb406" />
 
 
 ## nslookup
-<img width="549" height="117" alt="Screenshot 2025-11-11 090147" src="https://github.com/user-attachments/assets/1729e00a-2e32-48b1-b3ac-46d33dde461b" />
-
-
+<img width="379" height="114" alt="Screenshot 2026-01-31 202034" src="https://github.com/user-attachments/assets/c829067e-e3bc-4e22-9692-bdf3bf24ad59" />
 
 ## getmac
-<img width="973" height="208" alt="Screenshot 2025-11-11 090153" src="https://github.com/user-attachments/assets/57c7b040-fc86-4ea5-8e58-3576e80c792a" />
-
+<img width="970" height="145" alt="Screenshot 2026-01-31 202041" src="https://github.com/user-attachments/assets/4496251a-cad7-4b12-8ab1-c90770e12983" />
 
 ## hostname
-<img width="487" height="65" alt="Screenshot 2025-11-11 090201" src="https://github.com/user-attachments/assets/0feb90ed-9076-4479-ac59-1cd5c36c14ca" />
+<img width="405" height="77" alt="Screenshot 2026-01-31 202046" src="https://github.com/user-attachments/assets/91f6b012-2cd5-4cd0-bd05-d08130a1331d" />
 
 
 ## nbtstat
-<img width="1107" height="589" alt="Screenshot 2025-11-11 090212" src="https://github.com/user-attachments/assets/cc981487-a3bc-4131-8553-6044caacfdf9" />
-
+<img width="1134" height="588" alt="Screenshot 2026-01-31 202058" src="https://github.com/user-attachments/assets/9d7c1aab-4c8c-4715-bd5c-9741d8ca5624" />
 
 ## arp
-<img width="1030" height="793" alt="Screenshot 2025-11-11 090227" src="https://github.com/user-attachments/assets/7e06b421-89f8-4c77-a729-cd5109c9e468" />
+
+<img width="1093" height="703" alt="Screenshot 2026-01-31 202111" src="https://github.com/user-attachments/assets/045f896e-b5f9-49c8-8ac2-4feefbc234ec" />
 
 ## systeminfo
-<img width="1173" height="1004" alt="Screenshot 2025-11-11 090239" src="https://github.com/user-attachments/assets/50e9a7c3-b530-4bdb-98e5-f04e00e726d2" />
+<img width="1203" height="698" alt="Screenshot 2026-01-31 202123" src="https://github.com/user-attachments/assets/8ee6b363-b5cc-4e71-a1f7-b03792a14cb2" />
+
 
 ## Result
 Thus Execution of Network commands Performed 
