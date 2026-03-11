@@ -54,12 +54,15 @@ GETMAC is a command-line tool in Windows used to display the MAC (Media Access C
 <img width="970" height="145" alt="Screenshot 2026-01-31 202041" src="https://github.com/user-attachments/assets/4496251a-cad7-4b12-8ab1-c90770e12983" />
 
 ## hostname
+
 HOSTNAME is a command-line tool used to display the name of the computer or device connected to a network. The hostname helps identify a system within a network.
+
 <img width="405" height="77" alt="Screenshot 2026-01-31 202046" src="https://github.com/user-attachments/assets/91f6b012-2cd5-4cd0-bd05-d08130a1331d" />
 
 
 ## nbtstat
 NBTSTAT (NetBIOS over TCP/IP Statistics) is a command-line tool used to display NetBIOS name tables and network statistics for a computer using the NetBIOS protocol. It helps in troubleshooting NetBIOS name resolution problems on a network.
+
 <img width="1134" height="588" alt="Screenshot 2026-01-31 202058" src="https://github.com/user-attachments/assets/9d7c1aab-4c8c-4715-bd5c-9741d8ca5624" />
 
 ## arp
