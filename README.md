@@ -25,8 +25,71 @@ This commands includes
 <BR>
 • Other IP Commands e.g. show ip route etc.
 <BR>
+## Programe
+## clint.py
+```
+import socket
 
+client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+client.connect(("localhost", 5000))
+
+website = input("Enter website to ping: ")
+
+client.send(website.encode())
+
+result = client.recv(4096).decode()
+
+print("Ping Result:\n")
+print(result)
+
+client.close()
+```
 ## Output
+<img width="1160" height="347" alt="Screenshot 2026-03-11 161523" src="https://github.com/user-attachments/assets/1d1d4d6b-a1b7-4d3b-b3de-ba450375e107" />
+## server.py
+```
+import socket
+
+server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server.bind(("localhost", 5000))
+server.listen(1)
+
+print("Server is waiting for connection...")
+
+conn, addr = server.accept()
+print("Connected by", addr)
+
+website = conn.recv(1024).decode()
+
+print("Client requested to ping:", website)
+
+import os
+result = os.popen("ping " + website).read()
+
+conn.send(result.encode())
+
+conn.close()
+server.close()
+```
+## OUTPUT
+<img width="1067" height="172" alt="Screenshot 2026-03-11 161547" src="https://github.com/user-attachments/assets/d69ba538-693c-4e3e-9902-a61e2e3ca42e" />
+
+## TRACE
+```
+import os
+
+host = input("Enter the host name or IP address: ")
+
+print("Tracing route to", host)
+print("--------------------------------")
+
+os.system("tracert " + host)
+```
+## OUTPUT
+<img width="1047" height="354" alt="image" src="https://github.com/user-attachments/assets/29e88bf2-d1c6-48aa-b9f9-d01845ae09db" />
+
+
 ## NETSTAT
 NETSTAT (Network Statistics) is a command-line tool used to display information about the network connections, routing tables, interface statistics, and open ports of a computer. It helps users and network administrators monitor and troubleshoot network-related problems.
 <img width="1407" height="642" alt="Screenshot 2026-01-31 201912" src="https://github.com/user-attachments/assets/c9dde7c1-841e-4e43-95d0-e96c388e8566" />
