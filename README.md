@@ -47,6 +47,7 @@ TRACERT (Trace Route) is a command-line network diagnostic tool used to find the
 
 ## nslookup
 NSLOOKUP (Name Server Lookup) is a command-line network tool used to find the IP address of a domain name or the domain name of an IP address using the DNS (Domain Name System).
+
 <img width="379" height="114" alt="Screenshot 2026-01-31 202034" src="https://github.com/user-attachments/assets/c829067e-e3bc-4e22-9692-bdf3bf24ad59" />
 
 ## getmac
