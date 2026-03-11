@@ -26,8 +26,9 @@ This commands includes
 • Other IP Commands e.g. show ip route etc.
 <BR>
 ## Programe
-## clint.py
-```
+## client.py
+
+~~~
 import socket
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -44,11 +45,13 @@ print("Ping Result:\n")
 print(result)
 
 client.close()
-```
+~~~
+
 ## Output
 <img width="1160" height="347" alt="Screenshot 2026-03-11 161523" src="https://github.com/user-attachments/assets/1d1d4d6b-a1b7-4d3b-b3de-ba450375e107" />
+
 ## server.py
-```
+~~~
 import socket
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -71,12 +74,12 @@ conn.send(result.encode())
 
 conn.close()
 server.close()
-```
+~~~
 ## OUTPUT
 <img width="1067" height="172" alt="Screenshot 2026-03-11 161547" src="https://github.com/user-attachments/assets/d69ba538-693c-4e3e-9902-a61e2e3ca42e" />
 
 ## TRACE
-```
+~~~
 import os
 
 host = input("Enter the host name or IP address: ")
@@ -85,7 +88,7 @@ print("Tracing route to", host)
 print("--------------------------------")
 
 os.system("tracert " + host)
-```
+~~~
 ## OUTPUT
 <img width="1047" height="354" alt="image" src="https://github.com/user-attachments/assets/29e88bf2-d1c6-48aa-b9f9-d01845ae09db" />
 
